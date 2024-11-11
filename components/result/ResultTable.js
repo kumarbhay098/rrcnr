@@ -45,8 +45,8 @@ const ResultTable = ({ result }) => {
         }
       >
         {result.status === "Pass"
-          ? "You are short list for documents verification"
-          : "You are not short list for documents verification"}
+          ? "You are shortlisted for documents verification and medical"
+          : "You are not shortlisted for documents verification and medical"}
       </div>
 
       {/* <table className="w-full text-left border-collapse shadow-lg">
