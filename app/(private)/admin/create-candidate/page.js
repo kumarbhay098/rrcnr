@@ -64,7 +64,7 @@ export default function CreateCandidate() {
           </div>
           <div>
             <label className="block text-sky-700 font-semibold mb-1">
-              Father's Name
+              Father&apos;s Name
             </label>
             <input
               type="text"

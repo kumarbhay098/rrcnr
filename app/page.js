@@ -15,6 +15,7 @@ export default function Home() {
       </section>
       <Image
         src={"/railway-building.jpeg"}
+        alt="banner"
         width={1000}
         height={1000}
         className="w-full"

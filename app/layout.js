@@ -14,12 +14,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-[#B6EBFA] min-h-screen flex flex-col justify-between mx-auto w-[1100px] p-4` }
+        className={`${inter.className} bg-[#B6EBFA] min-h-screen flex flex-col justify-between mx-auto w-[1100px] p-4`}
       >
         <div>
           <Image
             src={"/logo.jpg"}
             width={1000}
+            alt="logo"
             height={1000}
             className="w-full"
           />

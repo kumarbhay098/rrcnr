@@ -37,14 +37,14 @@ function TableData() {
           </tr>
         </thead>
         <tbody>
-          {notices.map((notice) => (
-            <tr className="font-serif font-semibold">
+          {notices.map((notice, index) => (
+            <tr className="font-serif font-semibold" key={index}>
               <td className="text-left p-2 border border-black">
                 {notice.date}
               </td>
               <td className="p-2 border border-black">
                 <div className=" flex flex-row">
-                  <Image src={"/new1.gif"} width={45} height={25} />
+                  <Image src={"/new1.gif"} width={45} height={25} alt="new" />
                   <h2 className="text-red-600">{notice.title}</h2>
                 </div>
                 {notice.description}
