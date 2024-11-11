@@ -10,6 +10,7 @@ export default function CreateCandidate() {
     registerNumber: "",
     dob: "",
     community: "",
+    trade: "",
     status: "Pass",
   });
   const [error, setError] = useState(null);
@@ -132,7 +133,21 @@ export default function CreateCandidate() {
               required
             />
           </div>
-          <div className="col-span-1 sm:col-span-2">
+          <div>
+            <label className="block text-sky-700 font-semibold mb-1">
+              Trade
+            </label>
+            <input
+              type="text"
+              name="trade"
+              value={formData.trade}
+              onChange={handleChange}
+              className="w-full border border-sky-300 p-2 rounded focus:outline-none focus:ring-2 focus:ring-sky-400"
+              placeholder="Enter trade"
+              required
+            />
+          </div>
+          <div className="">
             <label className="block text-sky-700 font-semibold mb-1">
               Status
             </label>

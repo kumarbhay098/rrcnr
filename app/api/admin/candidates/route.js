@@ -12,6 +12,7 @@ export async function POST(req, res) {
     registerNumber,
     dob,
     community,
+    trade,
     status,
   } = await req.json();
 
@@ -19,6 +20,7 @@ export async function POST(req, res) {
     !candidateName ||
     !fatherName ||
     !rollNumber ||
+    !trade ||
     !registerNumber ||
     !dob ||
     !community ||
@@ -38,6 +40,7 @@ export async function POST(req, res) {
       candidateName,
       fatherName,
       rollNumber,
+      trade,
       registerNumber,
       dob,
       community,
