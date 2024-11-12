@@ -8,9 +8,16 @@ export default function StatusCheck() {
   const [error, setError] = useState("");
 
   return (
-    <div className="text-center mx-auto max-w-7xl">
-      <h1 className="text-black font-bold text-lg mb-2">
-        Notice No. RRC/NR-04/2024/S&G Level 1
+    <div className="text-center mx-auto max-w-7xl mt-8">
+      <h1 className="text-red-800 font-bold text-2xl mb-2">
+        The Divisional Railway Manager Northern Railway ,Firozpur Cantt.
+        <div>Punjab-152001</div>
+      </h1>
+      <h1 className="text-black font-bold text-md mb-2">
+        Notifications No 01/2024 (Group-D) Date:11/11/2024
+      </h1>
+      <h1 className="text-blue-600 font-bold text-xl mb-2">
+       APPLICATION STATUS MEDICAL & DOCUMENT VERIFICATION 
       </h1>
       <h2 className="text-black text-xl font-semibold mb-6">
         Find Your Status
