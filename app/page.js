@@ -1,3 +1,5 @@
+import Carousel from "@/components/Carousel";
+import ImageData from "@/components/ImageData";
 import TableData from "@/components/tableData/page";
 import Image from "next/image";
 
@@ -21,6 +23,12 @@ export default function Home() {
         className="w-full"
       />
       <TableData />
+      <div className="mt-5">
+        <Carousel/>
+      </div>
+      <div>
+        <ImageData/>
+      </div>
     </div>
   );
 }
