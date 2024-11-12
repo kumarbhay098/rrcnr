@@ -33,6 +33,9 @@ const ResultTable = ({ result }) => {
             <td className=" text-left p-2 border border-black ">
               {result.community}
             </td>
+            <td className=" text-left p-2 border border-black ">
+              {result.trade}
+            </td>
           </tr>
           {/* Add more rows as needed */}
         </tbody>
