@@ -1,6 +1,7 @@
 import React from "react";
 
 const ResultTable = ({ result }) => {
+  console.log(result)
   return (
     <div className="mt-6">
       <table className="w-full border-collapse">
@@ -17,6 +18,9 @@ const ResultTable = ({ result }) => {
             </th>
             <th className="text-left  p-2 border border-black font-serif">
               Community
+            </th>
+            <th className="text-left  p-2 border border-black font-serif">
+              Trade
             </th>
           </tr>
         </thead>

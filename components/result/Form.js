@@ -35,7 +35,7 @@ const Form = ({ setResult, setError }) => {
     }
   };
   return (
-    <form onSubmit={handleSubmit} className="space-y-4 w-full">
+    <form onSubmit={handleSubmit} className="space-y-4 w-full max-w-md mx-auto">
       <div className="text-left">
         <label className="block font-semibold mb-1">Search By</label>
         <select
