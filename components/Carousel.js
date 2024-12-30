@@ -7,6 +7,9 @@ const Carousel = () => {
     "/NR3.jpg", // Replace with your image paths
     "/NR4.jpg",
     "/NR5.jpg",
+    "/lifestyle.jpg",
+    "/3rpbtfC38B9muoRQ.jpg",
+
   ];
 
   // Automatically change slide every 3 seconds

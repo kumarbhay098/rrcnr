@@ -14,16 +14,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-[#B6EBFA] min-h-screen flex flex-col justify-between mx-auto w-[1100px] p-4`}
+        className={`${inter.className} bg-[#B0C4DE] min-h-screen flex flex-col justify-between mx-auto w-[1100px] p-4`}
       >
-        <div>
-          <Image
-            src={"/logo.jpg"}
-            width={1000}
-            alt="logo"
-            height={1000}
-            className="w-full"
-          />
+        <div className="bg-white p-5">
+         <div className="flex flex-row">
+         <Image src={"/main_logo.jpg"} alt="logo" width={100} height={100} />
+            <div className="flex flex-row">
+              <Image src={"/wrlogoh.jpg"} alt="logo" width={400} height={100} />
+              <Image src={"/voters.png"} alt="logo" width={120} height={100} />  
+            </div>
+          </div>
           <Navbar />
         </div>
         {children}

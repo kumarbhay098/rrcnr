@@ -24,7 +24,7 @@ function TableData() {
     <div>
       <table className="w-full border-collapse">
         <thead>
-          <tr className="bg-red-800">
+          <tr className="bg-[#3271B8]">
             <th className="text-left text-white p-2 border border-black font-serif">
               Date
             </th>
