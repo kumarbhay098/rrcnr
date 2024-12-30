@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
           <Navbar />
         </div>
         {children}
-        <div className="text-center p-8">© Copyright 2011-21 RRC NR</div>
+        {/* <div className="text-center p-8">© Copyright 2011-21 RRC NR</div> */}
       </body>
     </html>
   );

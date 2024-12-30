@@ -10,7 +10,7 @@ export default function StatusCheck() {
   return (
     <div className="text-center mx-auto max-w-7xl mt-8">
       <h1 className="text-[#3271B8] font-bold text-2xl mb-2">
-        The Divisional Railway Manager Northern Railway
+        The Divisional Railway Manager Rajkot Railway Division
         {/* <div>Punjab-152001</div> */}
       </h1>
       <h1 className="text-black font-bold text-md mb-2">

@@ -6,25 +6,25 @@ const Navbar = () => {
     <nav className="bg-[#3271B8] mt-2 ">
       <div className="flex space-x-4 p-2">
         <Link href="/" className="text-white hover:underline font-serif">
-          HOME
+          होम
         </Link>
         <Link href="/" className="text-white hover:underline font-serif">
-          ABOUT US
+        परिचय
         </Link>
         <Link href="/" className="text-white hover:underline font-serif">
-          RULES
+        नियम और प्रक्रिया
         </Link>
         <Link href="/results" className="text-white hover:underline font-serif">
-          RESULTS
+          परिणाम
         </Link>
         <Link href="/" className="text-white hover:underline font-serif">
-          RULES/PROCEDURE & PERFORMA
+          नियम और प्रक्रिया
         </Link>
         <Link href="/" className="text-white hover:underline font-serif">
-          CONTACT US
+          संपर्क करें
         </Link>
         <Link href="/admin" className="text-white hover:underline font-serif">
-          ADMIN
+          प्रशासन
         </Link>
       </div>
     </nav>

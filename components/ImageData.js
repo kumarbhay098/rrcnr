@@ -23,7 +23,7 @@ function ImageData() {
 
             </div>
             <div className='mt-7 p-3'>
-                Northern Railway, the Jewel Set in the Crown of Indian Railways, has embarked on the mission to vanquish distances and create its own metaphor of existence. Formally established in the year 1952, it remains the largest zone in terms of route Kilometers, even after the re-organization of the Indian Railways. Northern Railway now comprises of 5 Divisions-Ambala, Delhi, Ferozpur, Lucknow and Moradabad.
+            पश्चिम रेलवे को अपना वर्तमान स्वरूप 5 नवम्बर, 1951 को दिया गया जब पूर्ववर्ती तत्कालीन बम्बई, बडोदा और सेन्ट्रल इंडिया रेलवे को अन्य रियासती रेलों यथा सौराष्ट्र राजस्थान और जयपुर के साथ मिलाया गया। स्वयं बीबी एंड सीआई रेलवे वर्ष 1855 में उस समय आरम्भ हुई, जब पश्चिमी तट पर गुजरात राज्य में अंकलेश्वर से उत्राण तक 29 मील लम्बे बड़ी लाइन रेल पथ का निर्माण किया गया। वर्ष 1864 में इस रेल मार्ग को मुंबई तक विस्तारित किया गया।
             </div>
         </>
     );
