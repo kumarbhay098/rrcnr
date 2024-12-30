@@ -9,14 +9,14 @@ export default function StatusCheck() {
 
   return (
     <div className="text-center mx-auto max-w-7xl mt-8">
-      <h1 className="text-red-800 font-bold text-2xl mb-2">
-        The Divisional Railway Manager Northern Railway ,Firozpur Cantt.
-        <div>Punjab-152001</div>
+      <h1 className="text-[#3271B8] font-bold text-2xl mb-2">
+        The Divisional Railway Manager Northern Railway
+        {/* <div>Punjab-152001</div> */}
       </h1>
       <h1 className="text-black font-bold text-md mb-2">
-        Notifications No 01/2024 (Group-D) Date:11/11/2024
+        Notifications No 01/2024 (Group-D) Date:30/12/2024
       </h1>
-      <h1 className="text-blue-600 font-bold text-xl mb-2">
+      <h1 className="text-[#3271B8] font-bold text-xl mb-2">
        APPLICATION STATUS MEDICAL & DOCUMENT VERIFICATION 
       </h1>
       <h2 className="text-black text-xl font-semibold mb-6">
