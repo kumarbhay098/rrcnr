@@ -4,9 +4,6 @@ import React, { useEffect, useState } from "react";
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    "/NR3.jpg", // Replace with your image paths
-    "/NR4.jpg",
-    "/NR5.jpg",
     "/lifestyle.jpg",
     "/3rpbtfC38B9muoRQ.jpg",
 
