@@ -14,7 +14,7 @@ export default function StatusCheck() {
         {/* <div>Punjab-152001</div> */}
       </h1>
       <h1 className="text-black font-bold text-md mb-2">
-        Notifications No 01/2024 (Group-D) Date:27/01/2025
+        Notifications No 01/2024 (Group-D) Date:12/02/2025
       </h1>
       <h1 className="text-[#3271B8] font-bold text-xl mb-2">
        APPLICATION STATUS MEDICAL & DOCUMENT VERIFICATION 
